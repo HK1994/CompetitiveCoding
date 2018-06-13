@@ -13,11 +13,11 @@ public class ClassicProblem3 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int testCases = Integer.parseInt(br.readLine());
-        int x[] = new int[testCases];
-        int y[] = new int[testCases];
-        int z[] = new int[testCases];
+        int [] x = new int[testCases];
+        int [] y = new int[testCases];
+        int [] z = new int[testCases];
         for (int i = 0; i < testCases; i++) {
-            String str[] = br.readLine().split(" ");
+            String[] str = br.readLine().split(" ");
             x[i] = reversedNumber(Integer.parseInt(str[0]));
             y[i] = reversedNumber(Integer.parseInt(str[1]));
         }
@@ -30,7 +30,8 @@ public class ClassicProblem3 {
     }
 
     static int reversedNumber(int num) {
-        int revNum = 0, x;
+        int revNum = 0;
+        int x;
         while (num > 0) {
             x = num % 10;
             revNum = revNum * 10 + x;
