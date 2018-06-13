@@ -1,4 +1,4 @@
-package com.hemant.spoj;
+package com.hemant.spoj.classic;
 
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * TEST - Life, the Universe, and Everything Problem
  * #basic #tutorial #ad-hoc-1
  */
-public class SPOJProblem1 {
+public class ClassicProblem1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList();

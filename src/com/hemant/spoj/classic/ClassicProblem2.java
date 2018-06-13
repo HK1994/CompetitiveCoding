@@ -1,4 +1,4 @@
-package com.hemant.spoj;
+package com.hemant.spoj.classic;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * PRIME1 - Prime Generator
  * #number-theory
  */
-public class SPOJProblem2 {
+public class ClassicProblem2 {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int noOfTestCases = Integer.parseInt(reader.readLine());
