@@ -17,7 +17,7 @@ public class ClassicProblem4 {
             int a= Integer.parseInt(br.readLine());
             if(a!= 0)
             {
-                
+
             }
 
         }

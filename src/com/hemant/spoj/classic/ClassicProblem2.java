@@ -24,7 +24,7 @@ public class ClassicProblem2 {
         }
     }
 
-    static void getPrimeNumbers(int x, int y) {
+    private static void getPrimeNumbers(int x, int y) {
         int m = x;
         int n = y;
         for (int i = m; i <= n; i++) {
@@ -33,7 +33,7 @@ public class ClassicProblem2 {
                 if(i > 3 && i%2 != 0) i++;
             }
         }
-//        System.out.print("\n");
+
     }
 
     private static Boolean checkPrime(int num) {
